@@ -120,65 +120,7 @@ class CommonFn
             }
             $e_cursor->next();
         }
-        $total = count($rows);
-        if ($total > 0){
-            $model = $e_cursor->getModel();
-            $db_name = $model->getMongoDBComponent()->dbName;
-            $c_name = $model->getCollectionName();      
-            $criteria = new EMongoCriteria();
-            $criteria->db_name('==', $db_name);
-            $criteria->c_name('==', $c_name);
-            $criteria->r_id('in', $_ids);
-            $criteria->limit($total);
 
-            $cursor = DbAction::model()->findAll($criteria);
-            if ($cursor->count() > 0){
-                $action_info = array();
-                $admin_user_ids = array();
-                foreach ($cursor as $v){
-                    $_id = (string)$v->r_id;
-                    $action = $v->action;
-                    $last = count($action) - 1;
-                    $admin_user_ids[] = $action[$last]['user'];
-                    $action_info[$_id] = array(
-                        'action_time' => date("Y-m-d H:i", $action[$last]['time']), 
-                        'admin_id' => $action[$last]['user'],
-                        'action_log' => isset($action[$last]['action_log']) ? $action[$last]['action_log'] : ''
-                    );
-                }
-                $criteria = new EMongoCriteria();
-                $criteria->_id('in', $admin_user_ids);
-                $user_cursor = User::model()->findAll($criteria);
-                $ruser_cursor = RUser::model()->findAll($criteria);
-                $admin_names = array();
-                foreach ($user_cursor as $v){
-                    $admin_names[$v->_id] = $v->name;
-                }
-                foreach ($ruser_cursor as  $v) {
-                    $admin_names[(string)$v->_id] = $v->user_name;
-                }
-                foreach ($rows as $k => $v){
-                    $_id = (string)$v['_id'];
-                    if (isset($action_info[$_id])){
-                        $admin_id = (string)$action_info[$_id]['admin_id'];
-                        $admin_user = $admin_names[$admin_id];
-                        $rows[$k]['action_user'] = $admin_user;
-                        $rows[$k]['action_time'] = $action_info[$_id]['action_time'];
-                        $rows[$k]['action_log'] = $action_info[$_id]['action_log'];
-                    } else {
-                        $rows[$k]['action_user'] = '';
-                        $rows[$k]['action_time'] = '';
-                        $rows[$k]['action_log'] = '';
-                    }           
-                }
-            } else {
-                foreach ($rows as $k => $v){
-                    $rows[$k]['action_user'] = '';
-                    $rows[$k]['action_time'] = '';
-                    $rows[$k]['action_log'] = '';   
-                }
-            }
-        }
         return $rows;
     }
     
