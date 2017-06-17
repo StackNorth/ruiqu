@@ -34,7 +34,7 @@ phpunit.phar
 node_modules
 
 #otherfiles
-/www/protected/config/develop.php
+#/www/protected/config/develop.php
 /www/weixin/node_modules
 /www/tech/node_modules
 /www/tech/bower_components
