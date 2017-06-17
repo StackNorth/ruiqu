@@ -1,5 +1,4 @@
 <?php
-
 date_default_timezone_set('PRC');
 $yii = __DIR__.'/../framework/yii.php';
 $config = __DIR__.'/protected/config/main.php';

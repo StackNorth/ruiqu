@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Created on 2012-6-20
  * add by wangyang

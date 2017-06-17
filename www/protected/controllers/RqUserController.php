@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 class RqUserController extends AdminController {
 
@@ -7,6 +7,7 @@ class RqUserController extends AdminController {
     }
 
     public function actionList() {
+	//ini_set('mongo.long_as_object', 1);
         $pageParams = CommonFn::getPageParams();
 
         $id = intval(Yii::app()->request->getParam('id'));
