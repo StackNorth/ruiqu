@@ -1,0 +1,42 @@
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# composer vendor dir
+
+# composer itself is not needed
+composer.phar
+composer.json
+composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# phpstorm project files
+.idea
+.cache
+.htaccess
+/.idea
+node_modules
+
+#otherfiles
+
+/www/weixin/node_modules
+/www/tech/node_modules
+/www/tech/bower_components
+*.log
+*.bin

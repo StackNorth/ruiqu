@@ -1,0 +1,82 @@
+.coupon-content {
+  width: 744px;
+  padding: 12px 140px;
+}
+.coupon-content h2 {
+  font-size: 36px;
+  color: #666;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.coupon-content .intro {
+  text-align: center;
+  font-size: 24px;
+  color: #999;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.coupon-content .des span {
+  color: #ffba11;
+}
+
+.coupon-list .coupon-container {
+  margin: 10px 0;
+}
+.coupon-list li {
+  display: block;
+}
+.coupon-list .left {
+  float: left;
+}
+.coupon-list .right {
+  float: right;
+}
+.coupon-list .coupon-container .coupon-body {
+  display: block;
+  position: relative;
+  padding: 12px 8px 8px 162px;
+  width: 190px;
+  height: 128px;
+  border: 2px solid #ebebeb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.coupon-list .price-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 148px;
+  width: 148px;
+  /*text-align: center;*/
+  line-height: 148px;
+  color: #fff;
+  font-size: 45px;
+}
+.coupon-list .price-container .price {
+  display: block;
+  position: absolute;
+  left: 48px;
+}
+.coupon-list .price-container .price-sm {
+  font-size: 36px;
+}
+.coupon-list .price-container .rmb {
+  position: absolute;
+  font-size: 20px;
+  top: -9px;
+  left: 32px;
+}
+.coupon-list h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.coupon-list .des {
+  color: #999;
+  font-size: 14px;
+}
+.coupon-list .clear-float {
+  float: none;
+}

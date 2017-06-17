@@ -1,0 +1,427 @@
+.intro-pic {
+  position: relative;
+  left: -225px;
+  width: 981px;
+  height: 760px;
+  background: url(http://wozhua-others.qiniudn.com/20160301-dog.jpg) no-repeat;
+  background-size: contain;
+}
+.intro-text {
+  position: absolute;
+  right: 30px;
+  top: 60px;
+  width: 590px;
+  height: 300px;
+  background: url(http://wozhua-others.qiniudn.com/20160217-heafline.gif) no-repeat;
+  background-size: contain;
+  font-size: 0;
+  text-indent: -10000px;
+}
+.intro-icon {
+  position: absolute;
+  right: 30px;
+  top: 400px;
+  width: 590px;
+  font-size: 0;
+}
+.intro-icon .items {
+  display: inline-block;
+  *display:inline;
+  *zoom:1;
+  padding-top: 100px;
+  width: 144px;
+  background-repeat: no-repeat;
+  background-size: 84px 84px;
+  background-position: top center;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 16px;
+  color: #b0bec5;
+  border-right: 1px solid #f0f0f0;
+}
+.intro-icon .items.last-child {
+  border-right: none;
+}
+.intro-icon .items1 {
+  background-image: url(http://wozhua-others.qiniudn.com/20160217-tag_1.gif);
+}
+.intro-icon .items2 {
+  background-image: url(http://wozhua-others.qiniudn.com/20160217-tag_2.gif);
+}
+.intro-icon .items3 {
+  background-image: url(http://wozhua-others.qiniudn.com/20160217-tag_3.gif);
+}
+.intro-icon .items4 {
+  background-image: url(http://wozhua-others.qiniudn.com/20160217-tag_4.gif);
+}
+.section h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-family: '微软雅黑';
+  // margin: 50px 0 40px;
+}
+#service {
+  background: url(http://wozhua-others.qiniudn.com/20160217-greenbg.gif) no-repeat;
+  background-size: cover;
+}
+#service h2 {
+  color: #fff;
+}
+.main-service,
+.other-service {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.other-service {
+  width: 960px;
+}
+#comment .comment-list {
+  width: 900px;
+  margin: 0 auto;
+}
+.main-service {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-service .main {
+  display: inline-block;
+  vertical-align: middle;
+  width: 160px;
+  height: 202px;
+  text-align: center;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+.main-service .main:hover .icon-xizao {
+  background-color: rgba(0, 255, 255, 0.50);
+}
+.main-service .main:hover .icon-timao {
+  background-color: rgba(191, 255, 0, 0.50);
+}
+.main-service .main:hover .icon-meirong {
+  background-color: rgba(255, 192, 0, 0.50);
+}
+.other-service .other {
+  display: inline-block;
+  vertical-align: middle;
+  width: 108px;
+  height: 138px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 36px;
+}
+.other-service .other:hover .icon {
+  background-color: rgba(255, 255, 255, 0.50)
+}
+.main-service .icon,
+.other-service .icon {
+  display: block;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.main-service .icon {
+  width: 130px;
+  height: 130px;
+  background-size: 35%;
+}
+.other-service .icon {
+  width: 96px;
+  height: 96px;
+  border: 2px solid #fff;
+  background-size: 50%;
+  box-sizing: border-box;
+}
+.main-service a,
+.other-service a {
+  text-decoration: none;
+}
+.main-service .service-name,
+.other-service .service-name {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+  display: block;
+}
+.main-service .service-name {
+  font-size: 24px;
+}
+.other-service .service-name {
+  font-size: 20px;
+}
+#feature {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#feature h2 {
+  color: #666;
+}
+#feature .item {
+  width:980px;
+  margin:auto;
+}
+#feature .item div {
+  margin: 6px auto;
+}
+#feature .item .first {
+  margin-top:0;
+}
+#feature .item .last {
+  margin-bottom: 40px;
+}
+#feature .item img {
+  width: 484px;
+  height: 260px;
+}
+// #feature .item .right {
+//   float: right;
+// }
+#comment {
+  background-color: #f6f6f6;
+}
+#comment .comment-list {
+  padding-left: 0;
+  list-style: none;
+}
+.comment-list li {
+  position: relative;
+  padding-left: 90px;
+  padding-bottom: 20px;
+}
+.comment-list .thumb {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ddd;
+}
+.comment-list .name {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 10px 0;
+}
+.comment-list .name a {
+  color: #666;
+  text-decoration:none;
+}
+.comment-list .star {
+  position: relative;
+  height: 23px;
+  width: 120px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAQAAAAqw0yZAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgAhEJCDc3QMYwAAABD0lEQVQ4y53UzW3DIBiA4ddZoGxgOkEslXsZJSN0hGQDj5BR3Pt3IBuQDewJ6CFRAlQfdsLR6PErfgQ0hkz6XGrCgyQ5vEejJIk63elNeqDXu53epAfg6uxL1XuTVlepPppqV6lmzUa3qorFMvBTULgyEogu5tVODAM3YPhmbfwyE4hEQicDEx+rpB4LvoM38IL/CjtwAc/lBXjBu/DYJjFM7DfDOTscN28s3yHwPNdNOIPkV2IVF5DyNrmZ2KAxh/y7iLZBq7matnZ536AytHepnC+rK5QGzVezcOKTE4u22pL6jFl3dNEdsRn3aEOiJEkyiqm+Gxklle9j9ZhKkrNY5bdWzpIUKkZjGTdP+gef8nca8jzPLgAAABd0RVh0Q3JlYXRpb24gVGltZQAyMDE2LjIuMTbtWvM5AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE2LTAyLTE3VDA5OjA4OjU1KzA4OjAwTU1zuAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNi0wMi0xN1QwOTowODo1NSswODowMDwQywQAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAAAElFTkSuQmCC) repeat-x;
+  background-size: 24px 22px;
+}
+.comment-list .star-1 span {
+  width: 24px;
+}
+.comment-list .star-2 span {
+  width: 48px;
+}
+.comment-list .star-3 span {
+  width: 72px;
+}
+.comment-list .star-4 span {
+  width: 96px;
+}
+.comment-list .star-5 span {
+  width: 120px;
+}
+.comment-list .star span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAMAAAC3FHQgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEUAAAD/////wAD/wAD/wAD/wAD/wAD/wAD/wAD/wAD/wAD/wAD/wAD/wAD/wAD/wAD/wAD///88xC47AAAAEHRSTlMAAMBg4CBAcBCAsDDw0JCgkT7PkwAAAAFiS0dEAf8CLd4AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgAhEJCDin/9uhAAAAq0lEQVQoz33SURKDIAwEUCCAgWjN/U/bCsWyUZs/580OZMU5mABfHpGU/mjU+KykCmFvogphb6MQ9jYKYX+JzuFTU17iV+OS01DOVGpQO6EWyuxk1adZxT3zKse5st3iJv1WfMcbjzvf8IFjows3PPc13PHXRgWtpiuTNWrORRWjAkpGCbT07koqvdcCGpode3DzAPr5ty8eu7/GAxmqe5peSdp1Vp6teW/yDTaJFGdGxv0NAAAAF3RFWHRDcmVhdGlvbiBUaW1lADIwMTYuMi4xNu1a8zkAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTYtMDItMTdUMDk6MDg6NTYrMDg6MDB8pWklAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE2LTAyLTE3VDA5OjA4OjU2KzA4OjAwDfjRmQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAASUVORK5CYII=) repeat-x;
+  background-size: 24px 22px;
+}
+.comment-list .comment {
+  color: #666;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 9px;
+}
+.comment-list .comment-pic {
+  max-width: 100%;
+}
+.comment-list .time {
+  font-size: 12px;
+  color: #666;
+}
+.fp-slidesNav.bottom {
+  bottom: 120px;
+}
+.fp-slidesNav ul li {
+  width: 44px;
+  height: 12px;
+  margin: 25px;
+}
+.fp-slidesNav ul li a span {
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  top: 0;
+  background: #ececec;
+}
+.fp-slidesNav ul li a.active span {
+  width: 44px;
+  height: 12px;
+  margin: 0;
+  border-radius: 0;
+  background: #83c336;
+}
+.fp-slidesNav ul li:hover a span,
+.fp-slidesNav ul li:hover a.active span {
+  width: 44px;
+  height: 12px;
+  margin: 0;
+  border-radius: 0;
+  background: #83c336;
+}
+#fp-nav ul li {
+  width: 16px;
+  height: 16px;
+  margin: 20px;
+}
+#fp-nav ul li a span {
+  width: 16px;
+  height: 16px;
+  background: #ececec;
+  margin: -8px 0 0 -8px;
+}
+#fp-nav ul li a.active span {
+  width: 16px;
+  height: 16px;
+  background: #85c141;
+  margin: -8px 0 0 -8px;
+}
+/* service */
+.service-container {
+  width: 960px;
+  margin: auto;
+}
+.service-container .service-row {
+  width: 100%;
+}
+.service-row .service-item {
+  float: left;
+  width: 25%;
+}
+.service-row .clear-float {
+  width: 0;
+  height: 220px;
+  float: none;
+}
+.service-item a {
+  display: block;
+  text-decoration: none;
+  width: 160px;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+}
+.service-item .icon {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 130px;
+  height: 130px;
+}
+.service-item .service-name {
+  color: #fff;
+  margin-top: 20px;
+  display: block;
+  font-size: 24px;
+}
+/* service-icon */
+.service-item .icon-xizao {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-01shower.png);
+}
+.service-item .icon-timao {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-timao.png);
+}
+.service-item .icon-meirong {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-meirong.png);
+}
+.service-item .icon-spa {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-spa.png);
+}
+.service-item .icon-quchong {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-quchong.png);
+}
+.service-item .icon-jieya {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-jieya.png);
+}
+.service-item .icon-yaoyu {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-yaoyu.png);
+}
+.service-item .icon-zhuchan {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-zhuchan.png);
+}
+.service-item .icon-duanwei {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-duanwei.png);
+}
+.service-item .icon-ranse {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-ranse.png);
+}
+.service-item .icon-xunquan {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-xunquan.png);
+}
+.service-item .icon-tansuanyu {
+  background-image: url(http://wozhua-others.qiniudn.com/20160301-tansuanyu.png);
+}
+/* icon-color */
+.icon-bg-skyblue {
+  background-color: rgb(102, 204, 255);
+}
+.icon-bg-skyblue:hover {
+  background-color: rgba(102, 204, 255, 0.5);
+}
+.icon-bg-lavender {
+  background-color: rgb(213, 201, 249);
+}
+.icon-bg-lavender:hover {
+  background-color: rgba(213, 201, 249, 0.5);
+}
+.icon-bg-purple {
+  background-color: rgb(179, 173, 233);
+}
+.icon-bg-purple:hover {
+  background-color: rgba(179, 173, 233, 0.5);
+}
+.icon-bg-pink {
+  background-color: rgb(242, 114, 125);
+}
+.icon-bg-pink:hover {
+  background-color: rgba(242, 114, 125, 0.5);
+}
+.icon-bg-yellow {
+  background-color: rgb(245, 201, 4);
+}
+.icon-bg-yellow:hover {
+  background-color: rgba(245, 201, 4, 0.5);
+}
+.icon-bg-orange {
+  background-color: rgb(242, 147, 92);
+}
+.icon-bg-orange:hover {
+  background-color: rgba(242, 147, 92, 0.5);
+}
+.icon-bg-red {
+  background-color: rgb(242, 106, 75);
+}
+.icon-bg-red:hover {
+  background-color: rgba(242, 106, 75, 0.5);
+}

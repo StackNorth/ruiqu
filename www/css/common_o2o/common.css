@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  min-width: 1200px;
+  font-family: '微软雅黑', 'Microsoft YaHei', 'STHeiti Light';
+}
+img {
+  border: none;
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+h2 {
+  font-weight: normal;
+}
+.hide {
+  display: none;
+}
+.header {
+  width: 832px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 192px;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 192px;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+.logo a {
+  display: block;
+}
+.logo img {
+  display: block;
+}
+
+.header .nav {
+  position: absolute;
+  left: 242px;
+  top: 0;
+  height: 100%;
+}
+.header .nav a {
+  display: inline-block;
+  width: 132px;
+  line-height: 100px;
+
+  text-align: center;
+  text-decoration: none;
+}
+.header .nav a span {
+  font-size: 16px;
+  color: #333;
+}
+.header .nav a.active span,
+.header .nav a:hover span {
+  color: #ffd200;
+  padding: 5px 10px;
+  border-bottom: 5px solid #ffd200;
+}
+.header .tel {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  line-height: 100px;
+  margin: 0;
+  font-size: 16px;
+  color: #999;
+}
+.center {
+  width: 1024px;
+  // min-width: 960px;
+  height: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal-bg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.6;
+  filter:Alpha(opacity=60);
+  z-index: 1100;
+}
+.modal {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  margin-left: -200px;
+  margin-top: -200px;
+  background: #fff;
+  z-index: 1101;
+}
+.modal-header {
+  width: 100%;
+  padding: 15px 10px 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+.modal-header .close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  text-decoration: none;
+  opacity: .2;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  text-align: center;
+}
+.modal-content {
+  padding: 15px 10px;
+  text-align: center;
+}
+.light-blue-bg {
+  background-color: #0ac8ff;
+}
+.light-yellow-bg {
+  background-color: #ffd24d;
+}
+.light-green-bg {
+  background-color: #83c336;
+}
+body .clear-float {
+  float: none;
+}
+.clearfix {
+  *zoom:1
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: ""
+}
+.clearfix:after {
+  clear: both
+}
+#cnzz_stat_icon_1257567192 {
+  display: none;
+}

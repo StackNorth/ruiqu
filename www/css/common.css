@@ -1,0 +1,31 @@
+/* Fixed Internet Explorer 10 和 Windows Phone 8 媒体查询功能 */
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body, h1, h2, h3, h4, h5, h6{
+    font-family:Microsoft Yahei, SimHei, SimSun, sans-serif;
+}
+.last-form-group{
+    margin-bottom:0;
+}
+.btn-extent{
+    padding-left:2em;
+    padding-right:2em;
+}
+/* 背景自适应 */
+.fullBg {
+	position:fixed;
+	left:0;
+	top:0;
+	overflow:hidden;
+	z-index:-99;
+	height:100%;
+	width:100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	background-position:50% 0;
+}

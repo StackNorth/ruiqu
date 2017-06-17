@@ -1,0 +1,72 @@
+.download-content {
+  width: 1024px;
+  height: 754px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.download-content .preview {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  width: 368px;
+  height: 754px;
+}
+.download-content .preview-screen {
+  position: absolute;
+  left: 126px;
+  top: 144px;
+  height: 566px;
+  width: 318px;
+}
+.download-link {
+  position: absolute;
+  right: 125px;
+  top: 160px;
+  width: 278px;
+  text-align: center;
+}
+.qr-link {
+  margin-bottom: 40px;
+}
+.qr-link p {
+  color: #333;
+  font-size: 14px;
+  margin: 0 0 0 0;
+}
+.btn-download {
+  width: 278px;
+  height: 48px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 48px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.btn-download.android {
+  background-color: #85c141;
+}
+.btn-download.iOS {
+  background-color: #007fff;
+}
+.icon-android,
+.icon-iOS {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icon-android {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgAhEJLCvSqXvZAAACzklEQVRYw+2XTUgVURiG3zNmdksoM5RMiBRLsBBqEUSL2gQZiAVC1kKIMnDTKmgjLmsnhBBkGxNsk4sW/UAlRETaIoSEEPtD0EorCxL0qvO0cJw713vnzs/dBPXOYr75zpzvOed852dGaOXKLg5xSjlEO1t9SpzLUm79UBuVvuGbdVhzARFy90DiPHd8Sip5Tm1QXLMa2vgjbmhYT3VM+7VTxbI1q3EN6aU6NWx6/QEheyDRyi++s1ZfGWdPiJEJSHIpt0jipy9cygtANa8B+IadETzJLAA9rI8JoJxRAPqp4BwLaeF/0sAuBlcQsQC2YcAJ1iyRYCYN8EaSuOI8tcUA0OQGG+I419cM0iIdnGTczcX26IAnRNHliABqmY8EeGGb7AC/rWKfihRFNaYse4HPSqZMVVoOGRxZWtaoWUh3ZgFQos3mkyRhqUh2jv0jU0ljS2xQhSbMUgqwzsNsVYdKeaZ2M6VGdcsO3QOjpJo0ylF1qUpvuWhGPKXO1chvJ2H9EmcjpRhgL1uYdCd2SWaSW7TJsY5QoIWQrXcHSPOqV4XzVKeDqwUpQGpHsVSYc3v1GyjvvEtkAmzPq9HSuyKTljO3gZbPy3GUtVbQmZy3/gP+YUCchRYAKHCteKvAG8uk7JTzs2vNkfTgwoefce1FTWUCujTqWDctYgASGtFjxx7QK8/QrZ7J7KaH+1yUJM5E3KwXOCCxjWs8opONwYd+LEBahJD/B3nLDxBnu44EWIoYvtD3DPTJwQ7eR8rBw7Xf2IF/OFTrtBJaVotqHNcH9cmSrYQuqMTxDemBEppWr5ldC8jZA8+L91KtdDwW71zfVd96oWdR6stpdfEVe5ZhYVD1YIDJsEzW0tiAPPUXAKwMiyy+PACTrjXh3Oc8G/PHwPqB07SOMQDGqHN9J5gGYJDSwLgh/vTruU0f9Wm+Bu7STXlww030wzea/gBDqU1QHiz5KQAAABd0RVh0Q3JlYXRpb24gVGltZQAyMDE2LjIuMTeaXcOvAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE2LTAyLTE3VDA5OjQ0OjQzKzA4OjAwSNLVEAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNi0wMi0xN1QwOTo0NDo0MyswODowMDmPbawAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAAAElFTkSuQmCC);
+}
+.icon-iOS {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgAhEJLCvSqXvZAAAClklEQVRYw7WYT2gTQRjF38SaaqrSUA9RgoWgEFtFD0KECqIIgpEi4knFk9CeBL148eBJ8OBBvNoehKKgIoJITvFm/YPBQImYWrHQQiy10uJamth9Hrab7m529t+kby/JzPB+s/NNvvkmgjAlEFZM4DwWxGtHq/Or+YQ0j3OI49T4tqXH9kQEMMcSDT3eAABP8w9NXWo7gFkuNu1/srv9gDdc122XfjUA8xb7Se5oP+BF036ZR11HqACY5Pya/SLPSMYoAU6u2Rd5SDpGCZBjlQVe8ByjGIN4S0sXO+QAIc9F7MRZ5JFFAnN4h5fik7VXF2I/BnAcfeiBhgk8xXOhGwDJCznar7JKq3QWOcR+JpniKd5jmQ3a9Z4DAZeIu/iK7mqwxl+UaYVXAgCYdcw9nPJ2QAecS7MHBfQGjHirvmNWuqmMPcJxhdnPMOOzRLylYF/3DTJTlkQcXnd8f2i8rmA/a2ZWOyBmiUYMg5GDC4yIJbdmCwCH0RfZfhXP3DusgGPojgyYQsUfcACbIwMmxT9/QE+E2svUb1lHTPI5rOKyDqupFrq8W1c6CGAGemTAQab8ARWsRAZsxzl/QBlLQbwkusEtfoAvmFYA7MNdH4Coo6wAAK5x2KXVluwuKiQ7Q8Pe2TTNv8qIEfZ7HTgFZQA5KknXAIBHSlEAgBoeSGMAsIs/FOf/RHrgAIDQcF/xDZxr4KyLmOA3hfmXuMm/8BpUAOSDlY4PI9qP2ddEDtjKDxHsK8aNM9D9gOnQ9ekUM86oel5A2MuPLjY6F1ij1tJeZPPICX4BSeAmLmM3YljGPL7iM0qoYg4NbMNeHEEOWSSxiirGxKh1X9o2vve/LczgBDoxjQnhksq5E2nUhaNgkQI2Rv8BlosQD1t0m5wAAAAXdEVYdENyZWF0aW9uIFRpbWUAMjAxNi4yLjE3ml3DrwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNi0wMi0xN1QwOTo0NDo0MyswODowMEjS1RAAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTYtMDItMTdUMDk6NDQ6NDMrMDg6MDA5j22sAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAAABJRU5ErkJggg==);
+}

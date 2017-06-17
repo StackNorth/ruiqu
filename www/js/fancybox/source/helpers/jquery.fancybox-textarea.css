@@ -1,0 +1,30 @@
+#fancybox-textarea {
+	position: fixed;
+	left: 0;
+	width: 325px;
+	z-index: 8050;
+	text-align: center;
+}
+#fancybox-textarea.top {
+	top: 10px;
+}
+#fancybox-textarea.bottom {
+	bottom: 10px;
+}
+#fancybox-textarea .textarea-frame {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #FFF;
+	padding: 10px;
+}
+#fancybox-textarea textarea {
+	width: 300px;
+	height: 80px;	
+}
+#fancybox-textarea-title {
+	margin-bottom: 8px;
+	padding: 5px;
+	border: 1px solid #eee;
+	font-size: 14px;
+}

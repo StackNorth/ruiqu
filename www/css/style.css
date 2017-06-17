@@ -1,0 +1,86 @@
+.login-index{
+    width:320px;
+    height:300px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-150px; /* negative half of the height */
+    margin-left:-160px;
+}
+.regist-index{
+    width:455px;
+    height:410px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-205px; /* negative half of the height */
+    margin-left:-225px;
+}
+.regist-index .panel-body > p{
+    line-height:3em;
+}
+ul#category {
+	width:600px;
+	border:1px solid #ccc;
+    -ms-border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+	border-radius:8px;
+	line-height:1.5em;
+	padding:5px;
+	margin:5px;
+}
+ul#category > li > ul {
+	padding:0;
+}
+ul#category li .top {
+	margin:5px;
+	padding:5px;
+	border:1px solid #ccc;
+    -ms-border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+	border-radius:4px;
+}
+ul#category li {
+	list-style:none;
+}
+ul#category ul li .item {
+	border:1px solid #ccc;
+	border-radius:4px;
+	line-height:1.5em;
+	padding:5px;
+	margin:5px;
+}
+ul#category ul li .item:hover {
+	background-color:#eee;
+}
+ul#category ul li .more {
+	cursor:pointer;
+	padding:0 4px;
+	border:1px solid #999;
+	color:#999;
+	margin:0 5px;
+}
+ul#category ul li input {
+	width:6em;
+	margin:0 5px;
+}
+ul#category ul li input.color {
+	width:4em;
+}
+ul#category ul li input.distance {
+	width:2em;
+}
+ul#category ul li input.order {
+	width:2em;
+}
+ul#category .tool {
+	float:right;
+}
+ul#category ul ul .tool .add {
+	display:none;
+}
+ul#category ul ul {
+    margin-left:1.8em;
+}

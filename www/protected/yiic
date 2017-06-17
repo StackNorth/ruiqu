@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+$env = file_get_contents(__DIR__."/config/env.txt");
+require_once(dirname(__FILE__).'/yiic.php');
+if (trim($env) == 'develop'){
+	$environment = 'develop';
+    defined('YII_DEBUG') or define('YII_DEBUG',true);
+}elseif(trim($env) == 'product'){
+    defined('YII_DEBUG') or define('YII_DEBUG',false);
+    $environment = 'product';
+}else{
+    defined('YII_DEBUG') or define('YII_DEBUG',true);
+    $environment = 'test';
+}

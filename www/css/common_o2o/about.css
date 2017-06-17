@@ -1,0 +1,82 @@
+.about {
+  position: relative;
+  width: 538px;
+  height: 100%;
+  padding: 32px 470px 32px 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-img-container {
+  position: absolute;
+  width: 450px;
+  height: 780px;
+  right: 0;
+  top: 32px;
+}
+/*.about-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}*/
+.about h2 {
+  font-size: 36px;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 32px;
+  position: relative;
+}
+.about p {
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  // margin-bottom: 20px;
+}
+address {
+  font-size: 16px;
+  color: #333;
+  font-style: normal;
+  padding-left: 20px;
+}
+i.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.about h2 .icon {
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center center;
+}
+.icon-weibo {
+  background-image: url(http://wozhua-others.qiniudn.com/weibo_grey.png);
+}
+.icon-wechat {
+  background-image: url(http://wozhua-others.qiniudn.com/wechat_grey.png);
+}
+.icon-mail {
+  background-image: url(http://wozhua-others.qiniudn.com/mail_grey.png);
+}
+.about h2 a {
+  position: absolute;
+}
+.about h2 .weibo {
+  right: 150px;
+}
+.about h2 .wechat {
+  right: 80px;
+}
+.about h2 .mail {
+  right: 10px;
+}
+.about h2 .weibo:hover .icon {
+  background-image: url(http://wozhua-others.qiniudn.com/weibo.png);
+}
+.about h2 .wechat:hover .icon {
+  background-image: url(http://wozhua-others.qiniudn.com/wechat.png);
+}
+.about h2 .mail:hover .icon {
+  background-image: url(http://wozhua-others.qiniudn.com/mail.png);
+}
