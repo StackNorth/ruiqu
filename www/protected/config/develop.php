@@ -20,7 +20,7 @@ return CMap::mergeArray(
             ),
             'mongodb_ruiqu' => array(//o2o的数据库
                 'class'            => 'EMongoDB',
-                'connectionString' => 'mongodb://127.0.0.18:27017',
+                'connectionString' => 'mongodb://127.0.0.1:27017',
                 'dbName'           => 'test',
                 'fsyncFlag'        => true,
                 'safeFlag'         => true,
@@ -28,7 +28,7 @@ return CMap::mergeArray(
             ),
             'mongodb_o2o' => array(//o2o的数据库
                 'class'            => 'EMongoDB',
-                'connectionString' => 'mongodb://127.0.0.18:27017',
+                'connectionString' => 'mongodb://127.0.0.1:27017',
                 'dbName'           => 'fuwu',
                 'fsyncFlag'        => true,
                 'safeFlag'         => true,
