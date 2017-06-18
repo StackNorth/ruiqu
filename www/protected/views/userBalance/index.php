@@ -175,6 +175,8 @@
   var jq_date_start_order = $('#date_start_order');
   var jq_date_end_order = $('#date_end_order');
   var jq_acc = $('#acc_container');
+  var arpu = '';
+  var arptu ='';
    $(function(){
 
 		$('#balance_people_num').html(data_yes.balance_people_num);

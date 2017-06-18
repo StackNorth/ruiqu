@@ -1183,6 +1183,7 @@ class CommonFn
         curl_setopt($curl, CURLOPT_COOKIEJAR, $cookie); //设置Cookie信息保存在指定的文件中
         curl_setopt($curl, CURLOPT_POST, 1);//post方式提交
         curl_setopt($curl, CURLOPT_POSTFIELDS, $dat);//要提交的信息
+        $res = curl_exec($curl);
         curl_close($curl);
 
     }
